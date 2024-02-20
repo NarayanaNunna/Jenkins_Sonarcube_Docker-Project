@@ -4,7 +4,7 @@ pipeline {
     environment {
         SSH_KEY_ID = 'jenkins-integration'
         DEPLOYMENT_SERVER = '65.2.169.153'
-        DEPLOYMENT_PATH = '/home/ubuntu/website5'
+        DEPLOYMENT_PATH = '/home/ubuntu/website6'
         GIT_URL = 'git@github.com:NarayanaNunna/Jenkins_Sonarcube_Docker-Project.git'
         GIT_BRANCH = 'main'
     }
